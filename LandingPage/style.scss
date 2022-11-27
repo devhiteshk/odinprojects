@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding: 0;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+.web-headding{
+    color: #E5E7EB;
+}
+.second-container{
+   padding-left: 150px;
+   padding-right: 150px;
+}
+.flex-hero-container{
+    padding-top: 10px;
+    background-color: #1f2937;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    padding-left: 20px;
+    color: #E5E7EB;
+}
+
+.navbar{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+ul li{
+    list-style: none;
+    display: block;
+}
+
+.hero-main-text{
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.hero-container{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.hero-img{
+    height:250px;
+    width: 450px;
+    margin-left: 70px;
+}
+
+.flex-container-info{
+    text-align: center;
+}
+.heading{
+    font-size: 36px;
+    color: #1F2947;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.container-cats img{
+    max-width: 200px;
+    margin: 20px;
+    border-radius: 7%;
+}
+
+.quote-container{
+    margin-top: 30px;
+    background-color: #E5E7EB;
+    height: 270px;
+}
+
+.quote{
+    padding-top: 70px;
+}
+
+.quote p{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 29px;
+    text-align: left justify;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author{
+    text-align: right;
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.action-container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.action-content{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    color: #F9FAF8;
+    margin-top: 50px;
+    width: 80vw;
+    height: 140px;
+    border-radius: 15px;
+    background-color: #3882F6 ;
+
+}
+
+.action-content p{
+    padding-left: 50px;
+}
+.action-content h3{
+    padding-left: 50px;
+}
+
+.btn{
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    background-color:  #3882F6;;
+	border: 1px solid #F9FAF8;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.action-content button{
+    margin-left: 200px;
+}
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #1f2937;
+    height: 90px;
+}
